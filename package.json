@@ -13,7 +13,7 @@
     "pack:win": "npm run build:win && electron-builder \"release/win/Adobe Story-win32-ia32\" --platform=win --out=\"release/win/\" --config=packager.json",
     "pack:all": "npm run pack:osx && npm run pack:win"
   },
-  "repository": "",
+  "repository": "https://github.com/Hennamann/Adobe-Story-Desktop-App",
   "keywords": [
     "Adobe",
     "Story",

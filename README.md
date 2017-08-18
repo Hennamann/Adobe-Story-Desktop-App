@@ -7,7 +7,7 @@ This is an unoffical desktop app for the new HTML5 version of Adobe Story. It´s
 It also tweaks a few things, like removing the obnoxious "Looking for the old version?" prompt from the top menu.
 
 ## Installation
-
+You can download precompiled binaries for OS X, Windows and Linux in the [releases](https://github.com/Hennamann/Adobe-Story-Desktop-App/releases) section.
 
 ## Development Setup
 
@@ -72,7 +72,7 @@ npm run pack:win && npm run build:linux
 ```
 ## Contributing?
 Want to contribute? Great!
-If you found an issue, related to the app itself and not Adobe Story, submit it!
+If you found an issue, related to the app itself and not Adobe Story, submit it [here](https://github.com/Hennamann/Adobe-Story-Desktop-App/issues)!
 Want to contribute code to the project? Just make a pull request, and if you´re code checks out we´ll merge it!
 
 ## License
