@@ -2,7 +2,7 @@
 
 This is an unoffical desktop app for the new HTML5 version of Adobe Story. It´s built using Electron.
 
-![](demo.png)
+![](demo@2x.png)
 
 It also tweaks a few things, like removing the obnoxious "Looking for the old version?" prompt from the top menu.
 
