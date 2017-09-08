@@ -11,39 +11,49 @@ const url = require('url')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-function createWindow () {
+function createWindow() {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1000, height: 800, icon: __dirname + 'assets/sy_icon.png', titleBarStyle: "hiddenInset"})
+  mainWindow = new BrowserWindow({
+    width: 1000,
+    height: 800,
+    icon: __dirname + 'assets/sy_icon.png',
+    titleBarStyle: "hiddenInset"
+  })
   mainWindow.setMenu(null);
 
-  mainWindow.webContents.on('did-finish-load', function() {
-  mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; }')
-  if (process.platform == 'darwin') {
-    mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 70px !important; margin-right: 20px !important;} .coral-TabList { margin-left: 40px !important; }');
-  } 
- });
+  mainWindow.webContents.on('did-finish-load', function () {
+    mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; }')
+    if (process.platform == 'darwin') {
+      mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 70px !important; margin-right: 20px !important;} .coral-TabList { margin-left: 40px !important; }');
+    }
+  });
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://story.adobe.com', {userAgent: 'Safari'});
+  mainWindow.loadURL('https://story.adobe.com', {
+    userAgent: 'Safari'
+  });
 
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
 
   mainWindow.on('enter-full-screen', function () {
     if (process.platform == 'darwin') {
-    mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 0px !important; margin-right: 0px !important;} .coral-TabList { margin-left: 0px !important; }');
+      mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 0px !important; margin-right: 0px !important;} .coral-TabList { margin-left: 0px !important; }');
     }
   })
 
   mainWindow.on('leave-full-screen', function () {
     if (process.platform == 'darwin') {
-    mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 70px !important; margin-right: 20px !important;} .coral-TabList { margin-left: 40px !important; }');
+      mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 70px !important; margin-right: 20px !important;} .coral-TabList { margin-left: 40px !important; }');
     }
-  }) 
+  })
 
-  mainWindow.webContents.on('new-window', function(event, urlToOpen) {
+  mainWindow.webContents.on('new-window', function (event, urlToOpen) {
     event.preventDefault();
-    var newWindow = new BrowserWindow({width: 800, height: 600})
+    var newWindow = new BrowserWindow({
+      width: 800,
+      height: 600
+    })
     newWindow.loadURL(urlToOpen);
   });
 
@@ -79,6 +89,3 @@ app.on('activate', function () {
     createWindow()
   }
 })
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.

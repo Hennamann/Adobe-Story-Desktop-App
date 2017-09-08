@@ -1,13 +1,13 @@
-const {Menu} = require('electron')
+const {
+  Menu
+} = require('electron')
 const electron = require('electron')
 const BrowserWindow = electron.BrowserWindow
 const app = electron.app
 
-const template = [
-  {
+const template = [{
     label: 'Edit',
-    submenu: [
-      {
+    submenu: [{
         role: 'undo'
       },
       {
@@ -38,11 +38,10 @@ const template = [
   },
   {
     label: 'View',
-    submenu: [
-      {
+    submenu: [{
         label: 'Reload',
         accelerator: 'CmdOrCtrl+R',
-        click (item, focusedWindow) {
+        click(item, focusedWindow) {
           if (focusedWindow) focusedWindow.reload()
         }
       },
@@ -68,8 +67,7 @@ const template = [
   },
   {
     role: 'window',
-    submenu: [
-      {
+    submenu: [{
         role: 'minimize'
       },
       {
@@ -79,12 +77,12 @@ const template = [
   },
   {
     role: 'help',
-    submenu: [
-      {
-        label: 'Story Help',
-        click () { openHelpWindow() }
+    submenu: [{
+      label: 'Story Help',
+      click() {
+        openHelpWindow()
       }
-    ]
+    }]
   }
 ]
 
@@ -92,8 +90,7 @@ if (process.platform === 'darwin') {
   const name = app.getName()
   template.unshift({
     label: name,
-    submenu: [
-      {
+    submenu: [{
         role: 'about'
       },
       {
@@ -124,25 +121,20 @@ if (process.platform === 'darwin') {
     ]
   })
   // Edit menu.
-  template[1].submenu.push(
-    {
-      type: 'separator'
-    },
-    {
-      label: 'Speech',
-      submenu: [
-        {
-          role: 'startspeaking'
-        },
-        {
-          role: 'stopspeaking'
-        }
-      ]
-    }
-  )
+  template[1].submenu.push({
+    type: 'separator'
+  }, {
+    label: 'Speech',
+    submenu: [{
+        role: 'startspeaking'
+      },
+      {
+        role: 'stopspeaking'
+      }
+    ]
+  })
   // Window menu.
-  template[3].submenu = [
-    {
+  template[3].submenu = [{
       label: 'Close',
       accelerator: 'CmdOrCtrl+W',
       role: 'close'
@@ -170,6 +162,9 @@ const menu = Menu.buildFromTemplate(template)
 Menu.setApplicationMenu(menu)
 
 function openHelpWindow() {
-    var helpWindow = new BrowserWindow({width: 800, height: 600})
-    helpWindow.loadURL('https://helpx.adobe.com/story/topics.html');
-  }
+  var helpWindow = new BrowserWindow({
+    width: 800,
+    height: 600
+  })
+  helpWindow.loadURL('https://helpx.adobe.com/story/topics.html');
+}
