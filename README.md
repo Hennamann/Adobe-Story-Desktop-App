@@ -1,13 +1,24 @@
 # Adobe Story Desktop App
 
-This is an unoffical desktop app for the new HTML5 version of Adobe Story. It´s built using Electron.
+This is an unoffical desktop app for the new HTML5 version of Adobe Story. It's built using Electron. Along with providing a more native experience it also adds a dark design to the app.
 
-![](demo@2x.png)
+![](demo.png)
 
 It also tweaks a few things, like removing the obnoxious "Looking for the old version?" prompt from the top menu.
 
 ## Installation
 You can download precompiled binaries for OS X, Windows and Linux in the [releases](https://github.com/Hennamann/Adobe-Story-Desktop-App/releases) section.
+
+## Configuring
+The app is set to use the dark mode by default, to return to the default design you need to modify the app's config file:
+
+### OS X
+Right click the app in Finder and choose "Show Package Contents" open the "Contents" folder and then open the "Resources" folder once inside, look for the folder labeled "app" once there you should find a file labeled: "config.json" edit it with something like TextEdit and change the "darkmodeEnabled" setting from "true" to "false". Save the file.
+Next time you run the app it should be using the default design.
+
+### Windows 
+Head to your program files folder, and find the folder for "Adobe Story", open the "app" folder, once there you should find a file labeled: "config.json" edit it with something like Notepad and change the "darkmodeEnabled" setting from "true" to "false". Save the file.
+Next time you run the app it should be using the default design.
 
 ## Development Setup
 
