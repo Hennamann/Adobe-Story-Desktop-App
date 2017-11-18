@@ -1,0 +1,577 @@
+div.cards-container {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.generic-title-bar.cards-top-bar {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.column-items {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.column-title-item-content {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+span.column-title.ng-scope {
+    color: #fff !important;
+}
+
+span.with-whitespace.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.float-right.generic-symbols-black.coral-Icon.coral-Icon--add.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.generic-symbols-black.coral-Icon.coral-Icon--navigation.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+span.ng-scope {
+    color: #fff !important;
+}
+
+div.list-column.list-data-container {
+    border-color: #222 !important;
+}
+
+coral-icon.float-right.generic-symbols-black.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.project-card-category-list {
+    color: #fff !important;
+}
+
+div.card-div-wrapper2 {
+    background-color: #222 !important;
+}
+
+div.card-div.ng-scope {
+    border-color: #444 !important;
+    background-color: #222 !important;
+}
+
+div.generic-title-bar {
+    background-color: #333 !important;
+}
+
+span.generic-page-heading.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.generic-symbols-black.coral-Icon.coral-Icon--accordionLeft.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.table-container {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+span.column-name.ng-binding {
+    color: #fff !important;
+}
+
+div.documents-type-tabs.generic-tab-list {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.container.ng-scope {
+    background-color: #333 !important;
+}
+
+coral-tab-label.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--arrowDown.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+span.generic-icon-text-span-text.ng-scope {
+    color: #fff !important;
+}
+
+span.coral-Button.generic-icon-text-span.generic-symbols-black {
+    background-color: #444 !important;
+}
+
+span.coral-Button.generic-icon-text-span.generic-symbols-black:hover {
+    background-color: #555 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--archive.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+td.column-selection {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+td.column-documents.ng-scope {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+span.ng-binding {
+    color: #fff !important;
+}
+
+table.table-documents.generic-checkbox-list {
+    border-color: #222 !important;
+}
+
+td.column-options {
+    background-color: #333 !important;
+}
+
+coral-icon.generic-symbols.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.editor-action-bar.remove-bottom-border {
+    background-color: #333 !important;
+}
+
+div.menu-button.generic-secondary-text.schedule-file-menu-close-header {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+div.formatting-toolbar {
+    background-color: #333 !important;
+}
+
+div.separator {
+    border-color: #222 !important;
+}
+
+span.coral-Button.generic-icon-text-span {
+    background-color: #444 !important;
+}
+
+span.coral-Button.generic-icon-text-span:hover {
+    background-color: #555 !important;
+}
+
+div.manage-search-input  {
+    background-color: #444 !important;
+    border-color: #222 !important;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-empty {
+    background-color: #444 !important;
+    color: #fff !important;
+    border-color: #222 !important;
+}
+
+coral-icon.generic-symbols.coral-Icon.coral-Icon--search.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--arrowUp.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.column-item.draggable.ng-scope {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.scene-items {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.scene-heading.ng-binding.scene-heading-width-long {
+    color: #fff !important;
+}
+
+div.scene-number.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.generic-symbols-black.coral-Icon.coral-Icon--sizeXS.coral-Icon--accordionDown {
+    color: #fff !important;
+}
+
+div.part-break.ng-scope {
+    border-color: #222 !important;
+}
+
+div.toggle-parts-button.ng-binding {
+    color: #fff !important;
+}
+
+div.doc-panel-content {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.doc-prop-panel-tab-list.generic-tab-list {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.open-close-properties-panel {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+coral-icon.toggle-doc-prop-panel.coral-Icon.ng-scope.coral-Icon--accordionRight.coral-Icon--sizeXXS {
+    color: #fff !important;
+}
+
+div.toggle-doc-prop-button-div {
+    background-color: #222 !important;
+}
+
+div.doc-prop-panel {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.generic-list-item.history-version.ng-scope {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+coral-dialog-content.coral-Dialog-content {
+    background-color: #444 !important;
+}
+
+h2.coral-Dialog-title.coral-Heading.coral-Heading--2 {
+    background-color: #444 !important;
+    border-color: #222 !important;
+}
+
+coral-dialog-footer.coral-Dialog-footer {
+    background-color: #444 !important;
+}
+
+div.table-list-container.generic-checkbox-list {
+    background-color: #333 !important;
+    border-color: #555 !important;
+}
+
+td.column-header.column-project {
+    background-color: #555 !important;
+}
+
+td.column-header.column-role {
+    background-color: #555 !important;
+}
+
+td.column-header.column-select {
+    background-color: #555 !important;
+}
+
+div.manage-sharing-table-container.ng-scope {
+    border-color: #555 !important;
+}
+
+input.ng-pristine.ng-invalid.ng-invalid-email-valid.ng-empty.ng-touched {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+coral-actionbar-item.manage-share-action-bar-items.coral-ActionBar-item button {
+    background-color: #444 !important;
+}
+
+input.coral-Form-field.coral-Textfield.title-input.ng-pristine.ng-valid-not-null.ng-invalid.ng-invalid-not-empty.ng-valid-not-too-long.ng-valid-starts-valid.ng-valid-no-invalid-chars.ng-valid-unique.ng-empty.ng-touched {
+    background-color: #333 !important;
+    border-color: #444 !important;
+}
+
+li.generic-popover-item.category-action-popover {
+    background-color: #444 !important;
+}
+
+div.tab-colorbox {
+    background-color: #444 !important;
+}
+
+div.btn-group {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.color-tab.active {
+    background-color: #333 !important;
+}
+
+div.tab-historyColorbox {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.color-tab {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+div.tab-slider {
+    background-color: #444 !important;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-not-empty {
+    background-color: #444 !important;
+}
+
+div.colorpicker-circle.ng-isolate-scope {
+    background-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.default-menu-item-class {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.view-numering {
+    background-color: #444 !important;
+}
+
+div.submenu-popover-item.ng-scope {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.submenuitem-name.ng-binding.submenu-item-padding {
+    color: #fff !important;
+}
+
+div.schedule-file-menu-shield {
+    background-color: #444 !important;
+}
+
+div.create-document-dropdown-button.custom-margin {
+    background-color: #444 !important;
+}
+
+input.create-document-dropdown-item.custom-margin.coral-Textfield.ng-pristine.ng-untouched.ng-valid.ng-not-empty {
+    color: #fff !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.title_page {
+    background-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.submenu-item-separator.modify_header_footer {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.sound-elements {
+    background-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.sticky-notes {
+    background-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.camera-shot {
+    background-color: #444 !important;
+}
+
+div.coral3-SelectList-item.menuItem.generic-popover-item.shot-duration {
+    background-color: #444 !important;
+}
+
+div.schedule-file-menu-content.generic-popover.ng-isolate-scope {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.menu-button.generic-secondary-text.schedule-file-menu-open-header {
+    border-color: #444 !important;
+    background-color: #444 !important;
+}
+
+div.characters-box {
+    border-color: #222 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronLeft.coral-Icon--sizeXS.generic-symbols-black {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronRight.coral-Icon--sizeXS.generic-symbols-black {
+    color: #fff !important;
+}
+
+button.float-right.coral-Button {
+    background-color: #444 !important;
+    border-color: #333 !important;
+}
+
+div.scene-name-ml {
+    border-color: #222 !important;
+}
+
+input.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse.ng-touched {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+input.ng-valid.ng-dirty.ng-valid-parse.ng-touched.ng-empty {
+    background-color: #444 !important;
+}
+
+li.generic-popover-item {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+coral-popover.generic-popover.coral3-Popover.is-open {
+    border-color: #444 !important;
+    background-color: #444 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--closeCircle.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--calendarAdd.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--collectionAdd.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--copy.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--more.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--close.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+input.date-input.property-input-field.date-picker-input.coral-Textfield.ng-pristine.ng-untouched.ng-valid.hasDatepicker.ng-valid-required.ng-not-empty {
+    background-color: #fff !important;
+}
+
+input.save-version-title-input.coral-Textfield.ng-pristine.ng-untouched.ng-valid.ng-empty {
+    background-color: #fff !important;
+}
+
+input.save-version-title-input.coral-Textfield.ng-pristine.ng-valid.ng-not-empty.ng-untouched {
+    background-color: #fff !important;
+}
+
+input.save-version-title-input.coral-Textfield.ng-pristine.ng-valid.ng-not-empty.ng-touched {
+    background-color: #fff !important;
+}
+
+coral-icon.editor-back-button.coral-Icon.coral-Icon--accordionLeft.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.st-card {
+    background-color: #222 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.float-right.generic-symbols-black.coral-Icon.coral-Icon--accordionRight.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+input.create-document-dropdown-item.coral-Textfield.ng-pristine.ng-untouched.ng-valid.ng-not-empty {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+input.coral-Form-field.coral-Textfield.doc-title-input.ng-pristine.ng-invalid.ng-invalid-not-null.ng-valid-not-empty.ng-valid-not-too-long.ng-valid-starts-valid.ng-valid-no-invalid-chars.ng-valid-unique.ng-empty.ng-touched {
+    background-color: #333 !important;
+}
+
+div.create-document-dropdown-button {
+    background-color: #333 !important;
+}
+
+div.nolan-select-item.ng-scope {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.see-all-notification-div {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+coral-popover.pop-up-notification-popover.coral3-Popover.coral-Dialog--info.is-open {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+coral-icon.list-back-icon.float-left.generic-symbols-black.coral-Icon.coral-Icon--accordionLeft.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+input.coral-Textfield.ng-pristine.ng-untouched.ng-valid-max-length200.ng-empty.ng-valid.ng-valid-invalid-characters-list-default {
+    background-color: #fff !important;
+}
+
+input.ng-pristine.ng-invalid.ng-invalid-email-valid.ng-empty.ng {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+input.ng-pristine.ng-valid.ng-empty.ng-touched {
+    background-color: #444 !important;
+}
+
+.list-column{
+    background: #333 !important;
+}
+
+.doc-prop-container {
+    background-color: #333 !important;
+}
+
+.toggle-doc-prop-button-div {
+    border-top: 1px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+div.toggle-doc-prop-button-div {
+    background-color: #333 !important; 
+}
+
+.generic-checkbox-list-item {
+    border: none !important;
+}
+
+coral-icon.generic-symbols-black.coral-Icon.coral-Icon--sizeXS.coral-Icon--accordionRight {
+    color: #fff !important;
+}
+
+input.title-input.coral-Form-field.coral-Textfield.ng-pristine.ng-valid-not-null.ng-invalid.ng-invalid-not-empty.ng-valid-not-too-long.ng-valid-starts-valid.ng-valid-no-invalid-chars.ng-valid-unique.ng-empty.ng {
+    background-color: #333 !important;
+}

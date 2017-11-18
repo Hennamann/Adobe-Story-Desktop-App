@@ -6,6 +6,14 @@ const BrowserWindow = electron.BrowserWindow
 
 const path = require('path')
 const url = require('url')
+const fs = require('fs')
+
+try {
+  var config = require(__dirname + "/config.json");
+} catch (e) {
+  console.log("Config file not found! \n" + e.stack);
+  process.exit();
+}
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -23,6 +31,14 @@ function createWindow() {
 
   mainWindow.webContents.on('did-finish-load', function () {
     mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; }')
+    if(config.darkmodeEnabled == 'true') {
+      fs.readFile(__dirname+ '/assets/darkStyle.css', "utf-8", function(error, data) {
+      if(!error){
+      var formattedData = data.replace(/\s{2,10}/g, ' ').trim()
+      mainWindow.webContents.insertCSS(formattedData)
+      }
+    })
+    }
     if (process.platform == 'darwin') {
       mainWindow.webContents.insertCSS('#header-shell { -webkit-app-region: drag } .coral-Shell-header-home { margin-left: 70px !important; margin-right: 20px !important;} .coral-TabList { margin-left: 40px !important; }');
     }
