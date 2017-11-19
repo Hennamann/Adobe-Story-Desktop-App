@@ -28,6 +28,7 @@ function createWindow() {
     titleBarStyle: "hiddenInset"
   })
   mainWindow.setMenu(null);
+  mainWindow.maximize();
 
   mainWindow.webContents.on('did-finish-load', function () {
     mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; }')
@@ -91,11 +92,7 @@ app.on('ready', createWindow)
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
-  // On OS X it is common for applications and their menu bar
-  // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
     app.quit()
-  }
 })
 
 app.on('activate', function () {
