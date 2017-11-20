@@ -18,6 +18,28 @@ div.column-title-item-content {
     border-color: #222 !important;
 }
 
+div.row-container {
+    background-color: #555 !important;
+    border-color: #333 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+span.coral-Button.generic-icon-text-span-text.width {
+    background-color: #444 !important;
+    border-color: #333 !important;
+}
+
+span.generic-icon-text-span-text.wide.dropdown-input.ng-binding {
+    color: #fff !important;
+}
+
+div.row-label {
+    color: #fff !important;
+}
+
 span.column-title.ng-scope {
     color: #fff !important;
 }
@@ -58,6 +80,18 @@ coral-accordion.coral-aacord-bg.coral3-Accordion.ng-scope {
 .coral3-Accordion-item is-selected {
     background-color: #444 !important;
     border-color: #222 !important;
+}
+
+.generic-tab.is-selected {
+    border-bottom: 2px solid #fff !important
+}
+
+.edit-template-dialog * .edit-template-dropdown-button {
+    background-color: #333 !important;
+}
+
+.element-specific-main-div {
+    background-color: #444 !important;
 }
 
 .coral-aacord-bg.coral3-Accordion.ng-scope {
@@ -115,6 +149,7 @@ div.generic-tab-list.inner-div-tab {
 td.template-label.color-black.table-data-styling.ng-binding {
     background-color: #444 !important;
     color: #fff !important;
+    border-radius: 0px !important;
 }
 
 div.generic-tab.text-tab-div {
@@ -130,15 +165,15 @@ div.generic-tab.paragraph-tab {
 }
 
 div.generic-tab.text-tab-div:hover {
-    color: rgb(230, 230, 230) !important;
+    color: rgb(168, 168, 168) !important;
 }
 
 div.generic-tab.shortcut-tab:hover {
-    color: rgb(230, 230, 230) !important;
+    color: rgb(168, 168, 168) !important;
 }
 
 div.generic-tab.paragraph-tab:hover {
-    color: rgb(230, 230, 230) !important;
+    color: rgb(168, 168, 168) !important;
 }
 
 div.generic-tab.shortcut-tab.is-selected {
@@ -151,7 +186,8 @@ button.change-button.coral-Button {
 }
 
 td.template-label.color-black.table-data-styling.ng-binding:hover {
-    background-color: #444 !important;
+    background-color: #333 !important;
+    border-radius: 0px !important;
 }
 
 div.add-button-style {
@@ -201,6 +237,22 @@ coral-icon.coral-Icon.coral-Icon--delete.coral-Icon--sizeXS {
 }
 
 div.camera-shot-checkbox-label.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.generic-symbols.coral-Icon.coral-Icon--arrowUp.coral-Icon--sizeXXS {
+    color: #fff !important;
+}
+
+span.coral-Button.generic-icon-text-span.generic-symbols-black.import-template {
+    background-color: #444 !important;
+}
+
+span.coral-Button.generic-icon-text-span.generic-symbols-black.import-template:hover {
+    background-color: #555 !important;
+}
+
+coral-icon.generic-symbols.coral-Icon.coral-Icon--arrowDown.coral-Icon--sizeXXS {
     color: #fff !important;
 }
 
@@ -377,7 +429,20 @@ div.manage-search-input {
 input.ng-pristine.ng-untouched.ng-valid.ng-empty {
     background-color: #444 !important;
     color: #fff !important;
+    border-color: #444 !important;
+}
+
+div.nolan-checkbox span {
+    background-color: rgb(51, 51, 51) !important;
     border-color: #222 !important;
+}
+
+coral-dialog-header.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
+    color: #fff !important;
 }
 
 coral-icon.generic-symbols.coral-Icon.coral-Icon--search.coral-Icon--sizeS {
@@ -775,6 +840,14 @@ input.create-document-dropdown-item.coral-Textfield.ng-pristine.ng-untouched.ng-
 
 coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
     color: #fff !important;
+}
+
+.edit-template-dialog *.coral-aacord-bg {
+    background-color:  #333 !important;
+}
+
+.coral3-Accordion-item+.coral3-Accordion-item {
+    border-top: .0625rem solid #222 !important;
 }
 
 input.coral-Form-field.coral-Textfield.doc-title-input.ng-pristine.ng-invalid.ng-invalid-not-null.ng-valid-not-empty.ng-valid-not-too-long.ng-valid-starts-valid.ng-valid-no-invalid-chars.ng-valid-unique.ng-empty.ng-touched {
