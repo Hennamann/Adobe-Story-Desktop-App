@@ -190,6 +190,44 @@ td.template-label.color-black.table-data-styling.ng-binding:hover {
     border-radius: 0px !important;
 }
 
+button.sort-properties-add-button.coral-Button {
+    background-color: #444 !important;
+    border-color: #333 !important;
+}
+
+button.sort-properties-remove-button.coral-Button {
+    background-color: #444 !important;
+    border-color: #333 !important;
+}
+
+button.sort-properties-add-button.coral-Button:hover {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+.coral-Button.is-disabled,
+.coral-Button:disabled {
+    border-color: #555 !important;
+    background-color: #666 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    cursor: default !important;
+}
+
+.coral-Button.is-disabled:hover,
+.coral-Button:disabled:hover {
+    border-color: #555 !important;
+    background-color: #666 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    cursor: default !important;
+}
+
+button.sort-properties-remove-button.coral-Button:hover {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
 div.add-button-style {
     background-color: #444 !important;
     border-color: #333 !important;
@@ -402,6 +440,284 @@ coral-icon.generic-symbols.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeS
 
 div.editor-action-bar.remove-bottom-border {
     background-color: #333 !important;
+}
+
+div.schedule-table-column.schedule-overflow.draggable.ng-scope.ng-isolate-scope {
+    background-color: #555;
+}
+
+span.column-label.ng-binding {
+    color: #fff !important;
+}
+
+div.schedule-table-row.schedule-scene.draggable.ng-isolate-scope {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+div.schedule-table-row.schedule-scene.draggable.ng-isolate-scope:hover {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+div.color-setting.ng-scope {
+    background-color: #444 !important;
+}
+
+div.schedule-to-compare-column-items.script-column-items {
+    background-color: #333 !important;
+    border-color: #222 !important
+}
+
+div.schedule-to-compare-column-items.script-column-items {
+    background-color: #333 !important;
+    border-color: #222 !important;
+}
+
+div.scripts-column-item.ng-scope {
+    background-color: #333 !important;
+}
+
+.assign-color-dialog * .color-dialog-items-container {
+    border-bottom: 1px solid #555 !important;
+}
+
+.assign-color-dialog *.generic-list .color-setting {
+    border-bottom: 1px solid #555 !important;
+}
+
+button.text-left-align.coral-Button.coral-Button--block.coral-Button--quiet {
+    background-color: #444 !important;
+    color: #fff;
+}
+
+button.text-left-align.coral-Button.coral-Button--block.coral-Button--quiet:hover {
+    background-color: #333 !important;
+    color: #5686CE;
+}
+
+div.change-list-header {
+    background-color: #333 !important;
+}
+
+div.change-list-table {
+    background-color: #333 !important;
+}
+
+div.change-info-container {
+    background-color: #333 !important;
+}
+
+div.change-info-header {
+    background-color: #333 !important;
+}
+
+div.change-list-row.ng-scope.change-list-selected-row {
+    background-color: #222 !important;
+}
+
+div.change-list-row.ng-scope.change-list-selected-row:hover {
+    background-color: #444 !important;
+}
+
+.sync-schedule-dialog .sync-action-bar button:hover {
+    background-color: transparent !important;
+}
+
+div.nolan-select-list.ng-isolate-scope {
+    background-color: #444 !important;
+}
+
+li.properties-sync-column.generic-tick-list-item.ng-scope.generic-selected-tick-list-item {
+    background-color: #444 !important
+}
+
+li.properties-sync-column.generic-tick-list-item.ng-scope.generic-selected-tick-list-item:hover {
+    background-color: #333 !important
+}
+
+.generic-tick-list {
+    background-color: #444 !important;
+}
+
+.sync-schedule-dialog .sync-action-bar .properties-sync-list {
+    column-rule: 1px solid #444 !important;
+    -webkit-column-rule: 1px solid #444 !important;
+}
+
+div.sort-field-row.generic-list-item.ng-scope {
+    background-color: #444 !important;
+}
+
+div.sort-field-row.generic-list-item.ng-scope:hover {
+    background-color: #333 !important;
+}
+
+div.sortable-column-container.generic-list {
+    background-color: #444 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronRight.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronLeft.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.change-list-row.ng-scope.change-list-item {
+    background-color: #555 !important;
+}
+
+div.change-list-row.ng-scope.change-list-item:hover {
+    background-color: #444 !important;
+}
+
+span.select-all-scenes-text.ng-scope {
+    color: #fff !important;
+}
+
+span.details-text.ng-binding {
+    color: #fff !important;
+}
+
+div.scripts-column-item.ng-scope:hover {
+    background-color: #222 !important;
+}
+
+div.generic-label.ng-binding {
+    color: #fff !important;
+}
+
+input.ng-pristine.ng-untouched.ng-valid.ng-not-empty {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+div.schedule-table-row.schedule-break.draggable.ng-isolate-scope {
+    border-color: #333 !important;
+}
+
+div.schedule-table-column.scene-settings {
+    background-color: #444 !important;
+}
+
+coral-icon.generic-symbols.coral-Icon.coral-Icon--moreVertical.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+span.scene-item.ng-binding {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--columnSettings.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--colorPalette.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+.schedule-editor .schedule-editor-main-container .selectedScheduleItem .schedule-scene {
+    background-color: #444 !important;
+}
+
+.schedule-editor .schedule-editor-main-container .selectedScheduleItem .schedule-scene .schedule-table-column {
+    background: #444 !important;
+}
+
+.schedule-editor .schedule-editor-main-container .selectedScheduleItem .schedule-break {
+    background-color: #444 !important;
+}
+
+.schedule-editor .schedule-editor-main-container .selectedScheduleItem .schedule-break .schedule-table-column {
+    background: #444 !important;
+    height: 40px;
+    width: 90px;
+    padding-right: 30px;
+}
+
+div.schedule-table-column.column-options {
+    background-color: #444 !important;
+}
+
+input.date-input.property-input-field.date-picker-input.coral-Textfield.ng-pristine.ng-untouched.ng-valid.hasDatepicker.ng-not-empty.ng-valid-required {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.schedule-editor .schedule-editor-main-container .schedule-header-container {
+    border-bottom: 1px solid #444 !important
+}
+
+.schedule-editor .schedule-editor-main-container .schedule-row-header .schedule-table-column,
+.schedule-editor .schedule-editor-main-container .schedule-scene:hover .schedule-table-column {
+    background: #444 !important;
+}
+
+.schedule-editor .schedule-editor-main-container .schedule-table-column {
+    height: 32px !important;
+}
+
+.schedule-editor .schedule-editor-main-container .schedule-row-header .schedule-table-column * .scene-item,
+.schedule-editor .schedule-editor-main-container .schedule-scene:hover .schedule-table-column * .scene-item {
+    background: #444 !important;
+}
+
+textarea.property-input-field.coral-Textfield.coral-Textfield--multiline.ng-pristine.ng-untouched.ng-valid.ng-scope.ng-empty {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+textarea.property-input-field.coral-Textfield.coral-Textfield--multiline.ng-pristine.ng-untouched.ng-valid.ng-scope.ng-not-empty {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+coral-icon.editor-back-button.coral-Icon.coral-Icon--accordionLeft.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
+    color: #fff !important;
+}
+
+button.select-input-button {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.schedule-editor .schedule-editor-main-container .schedule-table-container {
+    background-color: rgb(51, 51, 51) !important;
+}
+
+div.schedule-table-column.schedule-overflow.draggable.ng-scope.ng-isolate-scope {
+    background-color: #444 !important;
+    border-color: #444 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--compare.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--reorder.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--refresh.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--cut.coral-Icon--sizeS {
+    color: #fff !important;
+}
+
+div.editor-action-bar {
+    background-color: #333 !important;
+}
+
+coral-icon.coral-Icon.coral-Icon--compare.coral-Icon--sizeS {
+    color: #fff !important;
 }
 
 div.menu-button.generic-secondary-text.schedule-file-menu-close-header {
@@ -843,7 +1159,7 @@ coral-icon.coral-Icon.coral-Icon--chevronDown.coral-Icon--sizeXS {
 }
 
 .edit-template-dialog *.coral-aacord-bg {
-    background-color:  #333 !important;
+    background-color: #333 !important;
 }
 
 .coral3-Accordion-item+.coral3-Accordion-item {

@@ -81,6 +81,17 @@ npm install electron-packager --global && npm install electron-builder@1.1.0 --g
 ```sh
 npm run pack:win && npm run build:linux
 ```
+
+## ToDo
+* Improve the darkstyle further.
+* Improve the configuration system (Either relocate the config file, or add a config window in the app itself.).
+* Add native keyboard shortcuts.
+* Figure out a way to make it work offline (No idea how to even begin on that...).
+
+## Notes
+* This code is far from perfect, especially the styling, it's got some rough edges which i am still working on ironing out. The messy CSS is partly my fault as well as Adobe's (Their default CSS styling is also a mess...). 
+* This project is not endorsed by Adobe in any way!
+
 ## Contributing?
 Want to contribute? Great!
 If you found an issue, related to the app itself and not Adobe Story, submit it [here](https://github.com/Hennamann/Adobe-Story-Desktop-App/issues)!
