@@ -749,7 +749,7 @@ input.ng-pristine.ng-untouched.ng-valid.ng-empty {
 }
 
 div.nolan-checkbox span {
-    background-color: rgb(51, 51, 51) !important;
+    background-color: #444 !important;
     border-color: #222 !important;
 }
 

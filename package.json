@@ -1,16 +1,16 @@
 {
   "name": "adobe-story-desktop-app",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An open source desktop app for Adobe Story",
   "main": "main.js",
   "scripts": {
     "start": "./node_modules/.bin/electron ./app",
-    "build:osx": "electron-packager ./app \"Adobe Story\" --platform=darwin --arch=x64 --icon=app/assets/sy_icon_mac.icns --prune=true --out=release/osx --overwrite",
-    "build:win": "electron-packager ./app \"Adobe Story\" --platform=win32 --arch=ia32 --icon=app/assets/sy_icon_win.ico --prune=true --out=release/win --overwrite",
-    "build:linux": "electron-packager ./app \"Adobe Story\" --platform=linux --arch=x64 --icon=app/assets/sy_icon.png --prune=true --out=release/linux --overwrite",
+    "build:osx": "electron-packager ./app \"Adobe Story CC\" --platform=darwin --arch=x64 --extend-info=assets/sy_app.plist --extra-resource=assets/Sy_ST.icns --icon=assets/sy_icon.icns --prune=true --out=release/osx --overwrite",
+    "build:win": "electron-packager ./app \"Adobe Story CC\" --platform=win32 --arch=ia32 --icon=assets/sy_icon.ico  --extra-resources=assets/Sy_ST.ico --prune=true --out=release/win --overwrite",
+    "build:linux": "electron-packager ./app \"Adobe Story CC\" --platform=linux --arch=x64 --icon=assets/sy_icon.png --prune=true --out=release/linux --overwrite",
     "build:all": "npm run build:osx && npm run build:win && npm run build:linux",
-    "pack:osx": "npm run build:osx && create-dmg \"release/osx/Adobe Story-darwin-x64/Adobe Story.app\"",
-    "pack:win": "npm run build:win && electron-builder \"release/win/Adobe Story-win32-ia32\" --platform=win --out=\"release/win/\" --config=packager.json",
+    "pack:osx": "npm run build:osx && create-dmg \"release/osx/Adobe Story CC-darwin-x64/Adobe Story CC.app\"",
+    "pack:win": "npm run build:win && electron-builder \"release/win/Adobe Story CC-win32-ia32\" --platform=win --out=\"release/win/\" --config=packager.json",
     "pack:all": "npm run pack:osx && npm run pack:win"
   },
   "repository": "https://github.com/Hennamann/Adobe-Story-Desktop-App",

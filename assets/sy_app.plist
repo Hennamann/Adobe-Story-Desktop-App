@@ -1,0 +1,17 @@
+<plist>
+<key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Adobe Story Document</string>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>stdoc</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>Sy_ST.icns</string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+        </dict>
+    </array>
+</plist>

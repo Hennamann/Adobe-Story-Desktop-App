@@ -1,6 +1,8 @@
 const electron = require('electron')
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
+const Menu = electron.Menu
+const MainMenu = require('./menu')
 
 const path = require('path')
 const url = require('url')
@@ -24,7 +26,9 @@ function createWindow() {
     icon: __dirname + 'assets/sy_icon.png',
     titleBarStyle: "hiddenInset"
   })
-  mainWindow.setMenu(null);
+
+  const main_menu = Menu.buildFromTemplate(MainMenu.default_menu)
+  mainWindow.setMenu(main_menu);
   // Maximize window on once it's opened. 
   mainWindow.maximize();
 
@@ -36,7 +40,7 @@ function createWindow() {
       fs.readFile(__dirname+ '/assets/darkStyle.css', "utf-8", function(error, data) {
       if(!error){
       var formattedData = data.replace(/\s{2,10}/g, ' ').trim()
-      mainWindow.webContents.executeJavaScript('var head = document.head, style = document.createElement(\'style\'); style.type = \'text/css\'; if (style.styleSheet){ style.styleSheet.cssText = "' + formattedData.replace(/\n/g, "") + '";} else { style.appendChild(document.createTextNode("' + formattedData.replace(/\n/g, "") + '")); } head.appendChild(style);')
+      mainWindow.webContents.executeJavaScript('var head = document.head, style = document.createElement(\'style\'); style.type = \'text/css\'; style.id = \'customStyle\'; if (style.styleSheet){ style.styleSheet.cssText = "' + formattedData.replace(/\n/g, "") + '";} else { style.appendChild(document.createTextNode("' + formattedData.replace(/\n/g, "") + '")); } head.appendChild(style);')
       }
     })
     }
@@ -68,6 +72,7 @@ function createWindow() {
     }
   })
 
+  // Used for the help window to ensure it loads with the default mac titlebar.
   mainWindow.webContents.on('new-window', function (event, urlToOpen) {
     event.preventDefault();
     var newWindow = new BrowserWindow({
@@ -77,14 +82,24 @@ function createWindow() {
     newWindow.loadURL(urlToOpen);
   });
 
+  // Change the menu depending on whether or not the script editor is open.
+  mainWindow.webContents.on('did-navigate-in-page', function (event, url) {
+    const edit_menu = Menu.buildFromTemplate(MainMenu.edit_menu)
+    if (url.includes('adobe_gm_scripts')) {
+      mainWindow.setMenu(null);
+      Menu.setApplicationMenu(edit_menu)
+    } else {
+      mainWindow.setMenu(null);
+      Menu.setApplicationMenu(main_menu)
+    }
+  })
+
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     mainWindow = null
   })
-
-  require('./mainmenu')
 }
 
 app.on('ready', createWindow)

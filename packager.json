@@ -1,6 +1,6 @@
 {
 "win" : {
-    "title" : "Adobe Story",
-    "icon" : "app/assets/sy_icon_win.ico"
+    "title" : "Adobe Story CC",
+    "icon" : "app/assets/sy_icon.ico"
   }
 }
