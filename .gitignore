@@ -32,3 +32,4 @@ auth\.json
 public/favicon\.ico
 .DS_Store
 /release
+*.dmg
