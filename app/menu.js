@@ -5,6 +5,9 @@ const electron = require('electron')
 const BrowserWindow = electron.BrowserWindow
 const app = electron.app
 
+const path = require('path')
+const url = require('url')
+
 const template = [{
   label: 'Edit',
   submenu: [{
@@ -91,7 +94,10 @@ const name = app.getName()
 template.unshift({
   label: name,
   submenu: [{
-      role: 'about'
+      label: 'About Adobe Story CC',
+      click() {
+        openAboutWindow()
+      }
     },
     {
       type: 'separator'
@@ -249,8 +255,9 @@ const edit_template = [{
     label: 'Story Help',
     click() {
       openHelpWindow()
-    }
-  }]
+    },
+  }
+]
 }
 ]
 
@@ -259,7 +266,10 @@ const name = app.getName()
 edit_template.unshift({
   label: name,
   submenu: [{
-      role: 'about'
+    label: 'About Adobe Story CC',
+    click() {
+      openAboutWindow()
+    }
     },
     {
       type: 'separator'
@@ -332,6 +342,25 @@ function openHelpWindow() {
     height: 600
   })
   helpWindow.loadURL('https://helpx.adobe.com/story/topics.html');
+}
+
+function openAboutWindow() {
+  var aboutWindow = new BrowserWindow({
+    width: 595,
+    height: 520,
+    frame: false,
+    transparent: true,
+    opacity: 0.0,
+    alwaysOnTop: true
+  })
+  aboutWindow.loadURL(url.format({
+    pathname: path.join(__dirname, 'about.html'),
+    protocol: 'file:',
+    slashes: true
+  }))
+  aboutWindow.on('blur', function () {
+    aboutWindow.close();
+  })
 }
 
 module.exports = { default_menu: template, edit_menu: edit_template }

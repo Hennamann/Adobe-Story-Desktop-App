@@ -8,6 +8,22 @@ div.generic-title-bar.cards-top-bar {
     border-color: #222 !important;
 }
 
+#page_container {
+    background-color: #333 !important;
+}
+
+div.page_footer {
+    background-color: #333 !important;
+}
+
+#homepage {
+    background-color: #333 !important;
+}
+
+.video-slug:hover {
+    background-color: #444 !important;
+}
+
 div.column-items {
     background-color: #333 !important;
     border-color: #222 !important;

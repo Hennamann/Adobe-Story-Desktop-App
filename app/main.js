@@ -33,8 +33,8 @@ function createWindow() {
   mainWindow.maximize();
 
   mainWindow.webContents.on('dom-ready', function () {
-    // Remove "looking for classic?"" link
-    mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; }')
+    // Remove "looking for classic?"" link and try classic link on login page.
+    mainWindow.webContents.insertCSS('.header-button-panel coral-shell-menubar-item:first-child { display: none; } .story_classic_msg { display: none; }')
     // Add custom Darkmode CSS (Is injected into the html document directly using javascript, to ensure proper style overrides. It might be messy but it works!)
     if(config.darkmodeEnabled == 'true') {
       fs.readFile(__dirname+ '/assets/darkStyle.css', "utf-8", function(error, data) {
