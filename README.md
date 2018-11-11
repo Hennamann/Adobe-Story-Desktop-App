@@ -1,5 +1,7 @@
 # Adobe Story Desktop App
 
+**This project has been discontinued and is not supported, this is due to Adobe discontinuing both the old and new Adobe Story, for more info [check here](https://theblog.adobe.com/adobe-exits-scriptwriting-software-business-end-adobe-story-cc/)**
+
 This is an unoffical desktop app for the new HTML5 version of Adobe Story. It's built using Electron. Along with providing a more native experience it also adds a dark design to the app.
 
 ![](demo.png)
